@@ -88,10 +88,7 @@ export default function flip(data, options) {
       floor(popperOffsets.bottom) > floor(boundaries.bottom);
 
     const overflowsBoundaries =
-      (overflowsLeft) ||
-      (overflowsRight) ||
-      (overflowsTop) ||
-      (overflowsBottom);
+      overflowsLeft || overflowsRight || overflowsTop || overflowsBottom;
 
     // flip the variation if required
     const isVertical = ['top', 'bottom'].indexOf(placement) !== -1;
