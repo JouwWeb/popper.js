@@ -14,6 +14,8 @@ import getOppositePlacement from './getOppositePlacement';
 export default function getPopperOffsets(popper, referenceOffsets, placement) {
   placement = placement.split('-')[0];
 
+  popper.setAttribute('x-placement', placement);
+
   // Get popper node sizes
   const popperRect = getOuterSizes(popper);
 
