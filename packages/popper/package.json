@@ -5,7 +5,7 @@
   "homepage": "https://popper.js.org",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FezVrasta/popper.js.git"
+    "url": "git+https://github.com/JouwWeb/popper.js.git"
   },
   "author": "Federico Zivolo <federico.zivolo@gmail.com>",
   "contributors": [

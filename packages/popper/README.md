@@ -1,3 +1,7 @@
+> NOTE: This is a fork hotfixing some issues for JouwWeb.
+
+---
+
 <!-- IGNORE THE HTML BLOCK BELOW, THE INTERESTING PART IS AFTER IT -->
 
 <h1 align="center">Popper.js</h1>
