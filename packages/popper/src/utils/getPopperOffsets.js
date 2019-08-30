@@ -12,9 +12,9 @@ import getOppositePlacement from './getOppositePlacement';
  * @returns {Object} popperOffsets - An object containing the offsets which will be applied to the popper
  */
 export default function getPopperOffsets(popper, referenceOffsets, placement) {
-  placement = placement.split('-')[0];
-
   popper.setAttribute('x-placement', placement);
+
+  placement = placement.split('-')[0];
 
   // Get popper node sizes
   const popperRect = getOuterSizes(popper);
